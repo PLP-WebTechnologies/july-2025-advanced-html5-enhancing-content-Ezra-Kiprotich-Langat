@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Learn Project </title>
+</head>
+<body>
+    <header>
+        <h2>PLP Academy</h2>
+        <nav>
+            <ul>
+                <li><a href="home">home</a></li>
+                <li><a href="about us">About Us</a></li>
+                <li><a href="Courses">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="services">
+            <h1>Our Services</h1>
+            <ul>
+                <li>Teaching Wed Development</li>
+                <li>Teaching Databases</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>we are here to make you understand coding </p>
+        </section>
+        <section id="tables">
+            <h2>Students Table</h2>
+            <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Registration No.</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Allan</td>
+                <td>AS211/3455/2023</td>
+                <td>Acturial Science</td>
+            </tr>
+            <tr>
+                <td>Hellen</td>
+                <td>AS211/3465/2023</td>
+                <td>Acturial Science</td>
+            </tr>
+            <tr>
+                <td>Reece</td>
+                <td>AS211/3475/2023</td>
+                <td>Acturial Science</td>
+            </tr>
+        </tbody>
+       </table>
+        </section><br>
+        <section id="media">
+            <h2>Audio and Video controls</h2>
+            <audio controls>
+                 <source src="/song/birthday.mp3" type="audio/mpeg">
+                 Your browser does not support the audio element.
+            </audio><br>
+            <video controls width="400" height="400">
+                <source src="https://videos.pexels.com/video-files/1580509/1580509-hd_1920_1080_30fps.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+        <section id="myform">
+            <form action="" autocomplete="on">
+        <fieldset>
+            <legend>Student information</legend>
+            <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name" value="Ezra" readonly><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" maxlength="8" minlength="4" placeholder="Enter your password" autocomplete="off" required><br>
+    <label for="phone">Phone:</label>
+    <input type="tel" name="phone" id="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" title = "Phone number must be in the format: 1234-567-890" placeholder="Enter your phone number" required><br>
+    
+    <label for="country">Country:</label>
+    <select name="country" id="country">
+        <option value="US">United States</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Tz">Tanzania</option>
+    </select><br>
+    <textarea name="comments" rows="4" cols="23" placeholder="write your comments here"></textarea><br>
+    
+    <button type="submit">Submit</button>
+
+        </fieldset>
+       </form>
+        </section>
+       
+    </main>
+</body>
+</html>
